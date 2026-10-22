@@ -1,0 +1,8 @@
+<body>
+    <h1 id="sapa">Halo!</h1>
+    <script>
+      // ambil parameter dari URL
+      const p = new URLSearchParams (Location.search); const nama = p.get("nama") || "Gavin";
+      document.querySelector("#sapa") .textContent = `Halo, ${nama}!`;
+    </script>
+  </body>
